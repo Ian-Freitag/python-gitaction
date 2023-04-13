@@ -19,5 +19,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install beautifulsoup4 requests
     - name: execute py script
-      run: python python_weather.pys
+      run: python python_weather.py
     - uses: stefanzweifel/git-auto-commit-action@v4
